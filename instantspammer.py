@@ -4,7 +4,7 @@ import time
 msg = input("Enter the message: ")
 n = input("How many times ?: ")
 
-count = 3
+count = 1
 while(count != 0):
 	print(count)
 	time.sleep(1)

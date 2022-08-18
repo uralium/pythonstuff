@@ -2,14 +2,17 @@ import keyboard
 import time
 import webbrowser
 
-bettercalldimi = 'https://imgur.com/a/3hKNLTl'
+bettercalldimi = 'https://i.imgur.com/SDT3tv4.mp4'
 
-
-print('If you want to call Dimi, press ALT+SHIFT+D')
-
-if keyboard.is_pressed('alt+shift+d'):
-    print('Ring Ring! Calling Dimi...')
-    time.sleep(5)
-    webbrowser.open(bettercalldimi)
-else:
-    print('Hmm looks like Dimi is feeding Stella again ¯\_(ツ)_/¯')
+print('If you want to call Dimi, press d')
+while True:
+    try:
+        comb = keyboard.is_pressed('d')
+        if comb:
+            call = print('Ring Ring! Calling Dimi...')
+            time.sleep(3)
+            webbrowser.open(bettercalldimi)
+            break
+    except KeyboardInterrupt: # ctrl+c to stop
+            print('Hmm looks like Dimi is feeding Stella again ¯\_(ツ)_/¯. Try again later.')
+            break

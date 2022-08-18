@@ -6,7 +6,7 @@ bettercalldimi = 'https://i.imgur.com/SacLumd.mp4'
 roll = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
 
 print('If you want to call Dimi, press d')
-print('Or rather what if you press r?')
+print('Or rather, what if you press r?')
 while True:
     try:
         comb = keyboard.is_pressed('d')

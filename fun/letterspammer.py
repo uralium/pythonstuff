@@ -14,4 +14,5 @@ try:
         keyboard.release(Key.enter)
     
 except KeyboardInterrupt:
-    break
+    print(*'Exiting'...)
+    pass

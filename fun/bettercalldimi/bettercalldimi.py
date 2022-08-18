@@ -6,7 +6,7 @@ bettercalldimi = 'https://i.imgur.com/SacLumd.mp4'
 roll = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'
 
 print('If you want to call Dimi, press d')
-print('Or rather, what if you press r?')
+print('Or rather, what if you press r first?')
 while True:
     try:
         comb = keyboard.is_pressed('d')
@@ -15,6 +15,7 @@ while True:
             print('Ring Ring! Calling Dimi...')
             time.sleep(3)
             webbrowser.open(bettercalldimi)
+            print('What about r?')
         elif comb2:
             print("lmao n00b you're in for a ride!!1")
             time.sleep(3)

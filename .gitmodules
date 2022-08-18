@@ -1,0 +1,6 @@
+[submodule "forks/hacker-scripts"]
+	path = forks/hacker-scripts
+	url = https://github.com/NARKOZ/hacker-scripts.git
+[submodule "forks/ASCII-generator"]
+	path = forks/ASCII-generator
+	url = https://github.com/uvipen/ASCII-generator.git

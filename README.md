@@ -1,2 +1,2 @@
 # pythonstuff
-My python codes for fun
+My enthusiastic python codes for fun

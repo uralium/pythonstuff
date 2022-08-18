@@ -14,4 +14,4 @@ try:
         keyboard.release(Key.enter)
     
 except KeyboardInterrupt:
-    pass
+    break

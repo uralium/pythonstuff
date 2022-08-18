@@ -12,6 +12,7 @@ while True:
         if comb:
             call = print('Ring Ring! Calling Dimi...')
             playsound('bettercalldimi/assets/note.mp3')
+            time.sleep(3)
             webbrowser.open(bettercalldimi)
             break
     except KeyboardInterrupt: # ctrl+c to stop

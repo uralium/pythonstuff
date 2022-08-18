@@ -10,7 +10,7 @@ while True:
     try:
         comb = keyboard.is_pressed('d')
         if comb:
-            call = print('Ring Ring! Calling Dimi...')
+            print('Ring Ring! Calling Dimi...')
             playsound('bettercalldimi/assets/note.mp3')
             time.sleep(3)
             webbrowser.open(bettercalldimi)

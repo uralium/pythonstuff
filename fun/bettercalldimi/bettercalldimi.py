@@ -17,6 +17,7 @@ while True:
             webbrowser.open(bettercalldimi)
         elif comb2:
             print("lmao n00b you're in for a ride!!1")
+            time.sleep(3)
             webbrowser.open(roll)
             break
     except KeyboardInterrupt: # ctrl+c to stop

@@ -2,7 +2,7 @@ import keyboard
 import time
 import webbrowser
 
-bettercalldimi = 'https://i.imgur.com/SDT3tv4.mp4'
+bettercalldimi = 'https://i.imgur.com/SacLumd.mp4'
 
 print('If you want to call Dimi, press d')
 while True:

@@ -1,16 +1,12 @@
-import pynput
+import pyautogui
 import time
 
-from pynput.keyboard import Key, Controller
+while True:
+    try:
+        for i in range(3):
+            time.sleep(0.1)
+            pyautogui.press("1")
 
-
-keyboard = Controller()
-
-try:
-    while(True):
-        time.sleep(0.1)
-        keyboard.press(Key.one)
-        keyboard.release(Key.one)
-    
-except KeyboardInterrupt:
-    pass
+    except KeyboardInterrupt:
+        print('Exiting...')
+        break

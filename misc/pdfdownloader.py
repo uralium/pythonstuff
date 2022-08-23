@@ -5,7 +5,7 @@ import time
 
 profile = {
     'download.prompt_for_download': False,
-    'download.default_directory': 'C:\\xxx\\xxx\\xxx',
+    'download.default_directory': 'C:\\xxx',
     'download.directory_upgrade': True,
     'plugins.always_open_pdf_externally': True,
 }
@@ -24,7 +24,7 @@ driver.find_element("xpath", '//button[@type="submit"]').click()
 time.sleep(2)
 
 #select report
-driver.get("https://lernen.klett.ch/media/com_dal/dal/files/978-3-264-84746-8/5/app.html?page=1")
+driver.get("https://lernen.klett.ch/ilscl/346")
 time.sleep(2)
 driver.find_element("xpath", "//*[@id='Repeater_AdditionalReports_ctl06_LinkButton_AdditionalReportName']").click()
 time.sleep(2)

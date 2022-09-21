@@ -14,8 +14,8 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option('prefs', profile)
 driver = webdriver.Chrome(options=options)
 
-myUsername="x"
-myPassword="x"
+myUsername="ural.erkut1@gmail.com"
+myPassword="galaxy11"
 driver.get("https://klett.ch/meinklett/")
 
 #login

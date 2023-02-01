@@ -9,7 +9,7 @@ keyboard = Controller()
 try:
     while(True):
         time.sleep(0.1)
-        keyboard.type('debby')
+        keyboard.type('lol')
         keyboard.press(Key.enter)
         keyboard.release(Key.enter)
     
